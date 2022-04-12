@@ -1,10 +1,11 @@
-import "./App.css"
-import { Cube, World } from "lingo3d-react"
+import { Cube, World } from 'lingo3d-react'
+import './App.css'
 
-const App = () => {
+function App() {
+
   return (
     <World>
-      <Cube animation={{ rotationY: [0, 360] }} />
+      <Cube animation={{ rotationY: [0, 180, 360] }} />
     </World>
   )
 }
